@@ -9,10 +9,10 @@ if(x<0 && y>0){
 z=a*x-by;
 cout<<z<<endl;
 } else if(x>=0 && y<=0){
-z=a*pow(x, 2)-b*y
+z=a*(pow(x, 2))-b*y
 cout<<z<<endl;
 }else{
-z=a*x+b*pow(y, 2)
+z=a*x+b*(pow(y, 2))
 cout<<z<<endl;
 }
    return 0;
